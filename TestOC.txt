@@ -1,7 +1,0 @@
-open cart project we see the automation test. 
-open cart project we see the selenium test.
-open cart project we see the test ng test.
-open cart project we see the extent report test.
-open cart project we see the selenium grid test.
-
-
