@@ -5,9 +5,3 @@ open cart project we see the extent report test.
 open cart project we see the selenium grid test.
 
 
-also we can see the further modified into our project
-// WINDOWS
-// SPRING BOOT
-// SELENIUM
-// TESTNG
-// NOTESS
