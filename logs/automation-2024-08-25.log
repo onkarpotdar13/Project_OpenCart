@@ -1,0 +1,60 @@
+13:45:53.089 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Login Page --> 
+13:45:53.790 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Click Tablet Option --> 
+13:45:54.221 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Check Tablet Items --> 
+13:45:54.277 [main] INFO  com.testcases.TC003_CheckTabletItemsTest - *** FINICH THE <-- TC003_CheckTabletItemsTest --> TEST ***
+13:46:38.797 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\grouping.xml"
+13:46:39.242 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Teasting_Network\Project_OpenCart\grouping.xml
+
+13:46:46.818 [main] INFO  com.testcases.TC003_CheckTabletItemsTest - *** START THE <-- TC003_CheckTabletItemsTest --> TEST ***
+13:46:46.823 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Home Page --> 
+13:46:47.352 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Login Page --> 
+13:46:48.184 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Click Tablet Option --> 
+13:46:48.738 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Check Tablet Items --> 
+13:46:48.806 [main] INFO  com.testcases.TC003_CheckTabletItemsTest - *** FINICH THE <-- TC003_CheckTabletItemsTest --> TEST ***
+13:48:57.017 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\grouping.xml"
+13:48:57.472 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Teasting_Network\Project_OpenCart\grouping.xml
+
+13:49:06.887 [main] INFO  com.testcases.TC003_CheckTabletItemsTest - *** START THE <-- TC003_CheckTabletItemsTest --> TEST ***
+13:49:06.896 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Home Page --> 
+13:49:07.622 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Login Page --> 
+13:49:08.500 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Click Tablet Option --> 
+13:49:09.301 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Check Tablet Items --> 
+13:49:09.366 [main] INFO  com.testcases.TC003_CheckTabletItemsTest - *** FINICH THE <-- TC003_CheckTabletItemsTest --> TEST ***
+13:49:46.088 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\grouping.xml"
+13:49:46.551 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Teasting_Network\Project_OpenCart\grouping.xml
+
+13:49:52.917 [main] INFO  com.testcases.TC003_CheckTabletItemsTest - *** START THE <-- TC003_CheckTabletItemsTest --> TEST ***
+13:49:52.923 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Home Page --> 
+13:49:53.464 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Login Page --> 
+13:49:54.327 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Click Tablet Option --> 
+13:49:54.830 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Check Tablet Items --> 
+13:49:54.889 [main] INFO  com.testcases.TC003_CheckTabletItemsTest - *** FINICH THE <-- TC003_CheckTabletItemsTest --> TEST ***
+13:51:28.138 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\grouping.xml"
+13:51:28.592 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Teasting_Network\Project_OpenCart\grouping.xml
+
+13:51:35.223 [main] INFO  com.testcases.TC003_CheckTabletItemsTest - *** START THE <-- TC003_CheckTabletItemsTest --> TEST ***
+13:51:35.230 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Home Page --> 
+13:51:35.843 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Check Tablet Items --> 
+13:58:13.876 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\grouping.xml"
+13:58:14.486 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Teasting_Network\Project_OpenCart\grouping.xml
+
+13:58:21.076 [main] INFO  com.testcases.TC003_CheckTabletItemsTest - *** START THE <-- TC003_CheckTabletItemsTest --> TEST ***
+13:58:21.081 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Home Page --> 
+13:58:21.852 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Login Page --> 
+13:58:22.690 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Check Tablet Items --> 
+14:02:11.440 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\grouping.xml"
+14:02:12.105 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Teasting_Network\Project_OpenCart\grouping.xml
+
+14:04:18.269 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\grouping.xml"
+14:04:18.724 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Teasting_Network\Project_OpenCart\grouping.xml
+
+14:04:25.567 [main] INFO  com.testcases.TC003_CheckTabletItemsTest - *** START THE <-- TC003_CheckTabletItemsTest --> TEST ***
+14:04:25.578 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Home Page --> 
+14:04:26.246 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Login Page --> 
