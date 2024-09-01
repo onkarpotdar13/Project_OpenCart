@@ -6,8 +6,8 @@
 		<run>
 			<!--<include name="sanity"></include>-->
 			<!--<include name="regression"></include>-->
-<!--			<include name="datadriven"></include>
--->			
+			<!--<include name="datadriven"></include>-->
+			
 			<include name="master"></include>
 
 <!--			<exclude name="datadriven"></exclude>-->

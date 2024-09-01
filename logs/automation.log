@@ -1,25 +1,23 @@
-13:17:47.836 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\grouping.xml"
-13:18:00.512 [main] INFO  com.testcases.TC003_CheckTabletItemsTest - *** START THE <-- TC003_CheckTabletItemsTest --> TEST ***
-13:18:00.513 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Home Page --> 
-13:18:01.147 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Login Page --> 
-13:18:02.551 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Click Tablet Option --> 
-13:18:03.064 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Check Tablet Items --> 
-13:18:03.103 [main] INFO  com.testcases.TC003_CheckTabletItemsTest - *** FINICH THE <-- TC003_CheckTabletItemsTest --> TEST ***
-13:22:33.231 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\grouping.xml"
-13:22:39.095 [main] INFO  com.testcases.TC001_AccountRegistrationTest - *** START THE <-- TC001_AccountRegistrationTest --> TEST ***
-13:22:39.140 [main] INFO  com.testcases.TC001_AccountRegistrationTest - Click on 'MyAccount' link..
-13:22:39.473 [main] INFO  com.testcases.TC001_AccountRegistrationTest - Click on 'Register' link..
-13:22:40.262 [main] INFO  com.testcases.TC001_AccountRegistrationTest - Fill the all user required details here...
-13:22:41.953 [main] INFO  com.testcases.TC001_AccountRegistrationTest - Validate Password here...
-13:22:42.020 [main] INFO  com.testcases.TC001_AccountRegistrationTest - *** FINISH THE <-- TC001_AccountRegistrationTest --> TEST ***
-13:22:46.541 [main] INFO  com.testcases.TC002_AccountLoginTest - *** START THE <-- TC002_AccountLoginTest --> TEST ***
-13:22:46.542 [main] INFO  com.testcases.TC002_AccountLoginTest -  <-- Home Page Action -->
-13:22:47.186 [main] INFO  com.testcases.TC002_AccountLoginTest -  <-- Login Page Action -->
-13:22:48.318 [main] INFO  com.testcases.TC002_AccountLoginTest -  <-- MyAccount Page Action -->
-13:22:48.368 [main] INFO  com.testcases.TC002_AccountLoginTest - *** FINISH THE <-- TC002_AccountLoginTest --> TEST ***
-13:22:57.836 [main] INFO  com.testcases.TC003_CheckTabletItemsTest - *** START THE <-- TC003_CheckTabletItemsTest --> TEST ***
-13:22:57.837 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Home Page --> 
-13:22:58.329 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Login Page --> 
-13:22:59.419 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Click Tablet Option --> 
-13:22:59.931 [main] INFO  com.testcases.TC003_CheckTabletItemsTest -  <-- Check Tablet Items --> 
-13:22:59.970 [main] INFO  com.testcases.TC003_CheckTabletItemsTest - *** FINICH THE <-- TC003_CheckTabletItemsTest --> TEST ***
+20:20:54.020 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Search Item Option --> 
+20:20:54.767 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Drop Down Option --> 
+20:20:54.812 [main] INFO  com.testcases.TC005_DropDownProductTest - *** FINISH THE <-- TC005_DropDownProductTest --> TEST ***
+20:27:59.473 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
+20:28:00.038 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Teasting_Network\Project_OpenCart\master.xml
+
+20:28:06.051 [main] INFO  com.testcases.TC005_DropDownProductTest - *** START THE <-- TC005_DropDownProductTest --> TEST ***
+20:28:06.052 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Home Page --> 
+20:28:06.741 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Login Page --> 
+20:28:07.873 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Search Item Option --> 
+20:28:08.603 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Drop Down Option --> 
+20:28:08.644 [main] INFO  com.testcases.TC005_DropDownProductTest - *** FINISH THE <-- TC005_DropDownProductTest --> TEST ***
+20:28:31.921 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
+20:28:32.303 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Teasting_Network\Project_OpenCart\master.xml
+
+20:28:37.944 [main] INFO  com.testcases.TC005_DropDownProductTest - *** START THE <-- TC005_DropDownProductTest --> TEST ***
+20:28:37.944 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Home Page --> 
+20:28:38.516 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Login Page --> 
+20:28:39.558 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Search Item Option --> 
+20:28:40.773 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Drop Down Option --> 
+20:28:40.822 [main] INFO  com.testcases.TC005_DropDownProductTest - *** FINISH THE <-- TC005_DropDownProductTest --> TEST ***

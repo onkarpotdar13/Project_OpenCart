@@ -7,19 +7,14 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
-    <groups>
-      <run>
-        <include name="sanity"/>
-      </run>
-    </groups>
     <classes>
-      <class name="com.testcases.TC003_CheckTabletItemsTest">
+      <class name="com.testcases.TC005_DropDownProductTest">
         <methods>
           <include name="tearDown"/>
           <include name="startUp"/>
-          <include name="check_Tablet_Items"/>
+          <include name="dropdown_Items"/>
         </methods>
-      </class> <!-- com.testcases.TC003_CheckTabletItemsTest -->
+      </class> <!-- com.testcases.TC005_DropDownProductTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master_Suite] -->

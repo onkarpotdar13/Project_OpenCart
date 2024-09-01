@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Master_Suite" class="navigator-link ">
-                    <span>D:\Teasting_Network\Project_OpenCart\grouping.xml</span>
+                    <span>D:\Teasting_Network\Project_OpenCart\master.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -103,7 +103,7 @@
                     <div class="method-list-content passed suite-Master_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master_Suite" title="com.testcases.TC003_CheckTabletItemsTest" class="method navigator-link" hash-for-method="check_Tablet_Items">check_Tablet_Items</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Master_Suite" title="com.testcases.TC005_DropDownProductTest" class="method navigator-link" hash-for-method="dropdown_Items">dropdown_Items</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Master_Suite -->
@@ -121,14 +121,14 @@
           <div class="suite-Master_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.testcases.TC003_CheckTabletItemsTest</span>
+              <span class="class-name">com.testcases.TC005_DropDownProductTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="check_Tablet_Items">
-                  </a> <!-- check_Tablet_Items -->
-                  <span class="method-name">check_Tablet_Items</span>
+                  <a name="dropdown_Items">
+                  </a> <!-- dropdown_Items -->
+                  <span class="method-name">dropdown_Items</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -136,23 +136,13 @@
         </div> <!-- panel Master_Suite -->
         <div panel-name="test-xml-Master_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Teasting_Network\Project_OpenCart\grouping.xml</span>
+            <span class="header-content">D:\Teasting_Network\Project_OpenCart\master.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Master_Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;groups&gt;
-    &lt;run&gt;
-      &lt;include name=&quot;sanity&quot;/&gt;
-    &lt;/run&gt;
-  &lt;/groups&gt;
-  &lt;groups&gt;
-    &lt;run&gt;
-      &lt;include name=&quot;sanity&quot;/&gt;
-    &lt;/run&gt;
-  &lt;/groups&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.utilities.OC_ExtentReportManager&quot;/&gt;
   &lt;/listeners&gt;
@@ -160,10 +150,7 @@
     &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.testcases.TC001_AccountRegistrationTest&quot;/&gt;
-      &lt;class name=&quot;com.testcases.TC002_AccountLoginTest&quot;/&gt;
-      &lt;class name=&quot;com.testcases.TC003_CheckTabletItemsTest&quot;/&gt;
-      &lt;class name=&quot;com.ddtestcase.TC001_LoginDDTest&quot;/&gt;
+      &lt;class name=&quot;com.testcases.TC005_DropDownProductTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Master_Suite --&gt;
@@ -177,7 +164,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (4 classes)</span>
+                <span class="test-name">Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -191,7 +178,7 @@
               <span class="test-group-name">master</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">check_Tablet_Items</span>
+                <span class="method-in-group-name">dropdown_Items</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -199,7 +186,7 @@
               <span class="test-group-name">sanity</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">check_Tablet_Items</span>
+                <span class="method-in-group-name">dropdown_Items</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -221,9 +208,9 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'check_Tablet_Items')
-data.setCell(0, 2, 'com.testcases.TC003_CheckTabletItemsTest')
-data.setCell(0, 3, 2338);
+data.setCell(0, 1, 'dropdown_Items')
+data.setCell(0, 2, 'com.testcases.TC005_DropDownProductTest')
+data.setCell(0, 3, 2914);
 window.suiteTableData['Master_Suite']= { tableData: data, tableDiv: 'times-div-Master_Suite'}
 return data;
 }
@@ -243,30 +230,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Master_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">3 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.testcases.TC002_AccountLoginTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">varify_account_Login</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.testcases.TC001_AccountRegistrationTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verify_account_Registration</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.ddtestcase.TC001_LoginDDTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verify_LoginDDT</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Master_Suite" class="panel">
@@ -275,18 +241,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.testcases.TC003_CheckTabletItemsTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.testcases.TC005_DropDownProductTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">startUp(windows, chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">check_Tablet_Items</span>
-                <span class="method-start">9442 ms</span>
+                <span class="method-name">dropdown_Items</span>
+                <span class="method-start">5242 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">11806 ms</span>
+                <span class="method-start">8181 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
