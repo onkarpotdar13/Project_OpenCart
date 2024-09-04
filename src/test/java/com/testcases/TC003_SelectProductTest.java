@@ -35,15 +35,18 @@ public class TC003_SelectProductTest extends BaseTest {
 			MyAccountPage myaccPage = new MyAccountPage(driver);
 			boolean chk_Heading = myaccPage.chk_Heading();
 			Assert.assertTrue(chk_Heading);
+			
+			// Read the product category from the config.properties file
+	        String categoryName = properties.getProperty("checkItems");
 
-			myaccPage.click_Tablet();
+			myaccPage.click_Category(categoryName);
 
 			logger.info(" <-- Check Tablet Items --> ");
 			// step 4 : check the tablet items
 			CheckProductPage chkProduct = new CheckProductPage(driver);
-			boolean itm_Heading = chkProduct.itm_Heading();
+			boolean isCategotySelected = chkProduct.select_Category(categoryName);
 
-			Assert.assertTrue(itm_Heading);
+			Assert.assertTrue(isCategotySelected);
 
 		} catch (Exception e) {
 

@@ -6,6 +6,8 @@ import org.testng.annotations.DataProvider;
 
 public class DataProviders {
 	
+	/* NOTE : THAT CLASS USE FOR EXCEL FILE AND DATA-DRIVEN-TEST CLASS */
+	
 	// Data provider 1
 	
 	@DataProvider(name = "LoginData")	// all methods invoked from ExcelUtility class.

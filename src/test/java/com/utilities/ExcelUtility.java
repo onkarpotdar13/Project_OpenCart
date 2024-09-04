@@ -17,6 +17,8 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelUtility {
 	
+	/*NOTE : THAT CLASS USE FOR EXCEL FILE AND DATA-DRIVEN-TEST CLASS */
+	
 	public FileInputStream fileInputStream;
 	public FileOutputStream fileOutputStream;
 	public XSSFWorkbook workbook;

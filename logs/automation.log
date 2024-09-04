@@ -1,23 +1,33 @@
-20:20:54.020 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Search Item Option --> 
-20:20:54.767 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Drop Down Option --> 
-20:20:54.812 [main] INFO  com.testcases.TC005_DropDownProductTest - *** FINISH THE <-- TC005_DropDownProductTest --> TEST ***
-20:27:59.473 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
-20:28:00.038 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+15:10:54.239 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Home Page --> 
+15:10:54.765 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Login Page --> 
+15:10:55.771 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Search Item Option --> 
+15:10:56.452 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Drop Down Option --> 
+15:10:56.561 [main] INFO  com.testcases.TC005_DropDownProductTest - *** FINISH THE <-- TC005_DropDownProductTest --> TEST ***
+15:11:55.047 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
+15:11:55.420 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   D:\Teasting_Network\Project_OpenCart\master.xml
 
-20:28:06.051 [main] INFO  com.testcases.TC005_DropDownProductTest - *** START THE <-- TC005_DropDownProductTest --> TEST ***
-20:28:06.052 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Home Page --> 
-20:28:06.741 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Login Page --> 
-20:28:07.873 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Search Item Option --> 
-20:28:08.603 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Drop Down Option --> 
-20:28:08.644 [main] INFO  com.testcases.TC005_DropDownProductTest - *** FINISH THE <-- TC005_DropDownProductTest --> TEST ***
-20:28:31.921 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
-20:28:32.303 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+15:12:00.911 [main] INFO  com.testcases.TC005_DropDownProductTest - *** START THE <-- TC005_DropDownProductTest --> TEST ***
+15:12:00.911 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Home Page --> 
+15:12:01.423 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Login Page --> 
+15:12:02.420 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Search Item Option --> 
+15:12:02.973 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Drop Down Option --> 
+15:12:07.133 [main] INFO  com.testcases.TC005_DropDownProductTest - *** FINISH THE <-- TC005_DropDownProductTest --> TEST ***
+15:15:15.896 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
+15:15:16.296 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   D:\Teasting_Network\Project_OpenCart\master.xml
 
-20:28:37.944 [main] INFO  com.testcases.TC005_DropDownProductTest - *** START THE <-- TC005_DropDownProductTest --> TEST ***
-20:28:37.944 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Home Page --> 
-20:28:38.516 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Login Page --> 
-20:28:39.558 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Search Item Option --> 
-20:28:40.773 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Drop Down Option --> 
-20:28:40.822 [main] INFO  com.testcases.TC005_DropDownProductTest - *** FINISH THE <-- TC005_DropDownProductTest --> TEST ***
+15:15:26.691 [main] INFO  com.testcases.TC005_DropDownProductTest - *** START THE <-- TC005_DropDownProductTest --> TEST ***
+15:15:26.691 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Home Page --> 
+15:15:27.258 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Login Page --> 
+15:15:28.383 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Search Item Option --> 
+15:17:19.962 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
+15:17:20.369 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Teasting_Network\Project_OpenCart\master.xml
+
+15:17:28.294 [main] INFO  com.testcases.TC005_DropDownProductTest - *** START THE <-- TC005_DropDownProductTest --> TEST ***
+15:17:28.294 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Home Page --> 
+15:17:30.756 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Login Page --> 
+15:17:32.182 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Search Item Option --> 
+15:17:32.765 [main] INFO  com.testcases.TC005_DropDownProductTest -  <-- Drop Down Option --> 
+15:17:36.902 [main] INFO  com.testcases.TC005_DropDownProductTest - *** FINISH THE <-- TC005_DropDownProductTest --> TEST ***

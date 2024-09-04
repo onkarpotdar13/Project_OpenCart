@@ -16,8 +16,11 @@
     <classes>
      <!-- <class name="com.testcases.TC001_AccountRegistrationTest"/> -->  
       <!--  <class name="com.testcases.TC002_AccountLoginTest"/> -->
-        <!--<class name="com.testcases.TC003_SelectProductTest"/>--> 
+      
+        <!--<class name="com.testcases.TC003_SelectProductTest"/> -->
+        
         <!--<class name="com.testcases.TC004_SearchProductTest"/>--> 
+        
         <class name="com.testcases.TC005_DropDownProductTest"/>
         
         

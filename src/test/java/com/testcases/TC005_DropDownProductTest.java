@@ -37,14 +37,22 @@ public class TC005_DropDownProductTest extends BaseTest{
 			boolean chk_Heading = myaccPage.chk_Heading();
 			Assert.assertTrue(chk_Heading);
 			
-			myaccPage.click_DropDown();
-			myaccPage.click_Mac_DropDown();
+			// Read the product sub-category from the config.properties file
+			String categoryName = properties.getProperty("checkItems");
+			String subCategoryName = properties.getProperty("subCategoryItem");
+			
+			myaccPage.click_DropDown(categoryName);
+			myaccPage.click_SubCategory(subCategoryName);
+			
+//			myaccPage.click_DropDown();
+//			myaccPage.click_Mac_DropDown();
 			
 			logger.info(" <-- Drop Down Option --> ");
 			DropDownPage ddp = new DropDownPage(driver);
-			boolean dropDownDisplayed = ddp.dropDown_Heading();
+			Thread.sleep(4000);
+			boolean isSubCategorySelected = ddp.select_SubCategory(subCategoryName);
 			
-			Assert.assertEquals(dropDownDisplayed, true);
+			Assert.assertTrue(isSubCategorySelected);
 		}
 		catch(Exception e)
 		{
