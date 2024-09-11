@@ -29,7 +29,7 @@ public class MyAccountPage extends BasePage {
 //		@FindBy(xpath = "//a[@class='dropdown-toggle'][normalize-space()='Desktops']")
 //		WebElement dropdown_Item;
 
-	// Dynamic locator method to select specific category based on provided category name /
+	// Dynamic locator method to select(items) specific category based on provided category name /
 	// also select drop down category based on provided drop down category name
 	public WebElement getCategoryElement(String categoryName) {
 		return driver
@@ -81,8 +81,8 @@ public class MyAccountPage extends BasePage {
 	}
 
 	// search item
-	public void search_Item(String item) {
-		search_Items.sendKeys(item);
+	public void search_Product(String product) {
+		search_Items.sendKeys(product);
 	}
 
 	// search button

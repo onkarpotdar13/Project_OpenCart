@@ -37,7 +37,7 @@ public class TC003_SelectProductTest extends BaseTest {
 			Assert.assertTrue(chk_Heading);
 			
 			// Read the product category from the config.properties file
-	        String categoryName = properties.getProperty("checkItems");
+	        String categoryName = properties.getProperty("selectItems");
 
 			myaccPage.click_Category(categoryName);
 

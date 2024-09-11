@@ -18,9 +18,14 @@ public class SearchProductPage extends BasePage{
 	@FindBy(xpath = "//h1[contains(normalize-space(),'Search - ')]")
 	WebElement search_Heading;
 	
+	// add to cart click product
+	@FindBy(xpath = "//div[@class='caption']//a[contains(text(),'iPhone')]")
+	WebElement click_Product;
+	
 	
 	// action
 	
+	// check search_Heading
 	public boolean search_Product() {
 		
 		try {
@@ -28,6 +33,11 @@ public class SearchProductPage extends BasePage{
 		}catch(Exception e) {
 			return false;
 		}
+	}
+	
+	// add to cart click product
+	public void click_Product() {
+		click_Product.click();
 	}
 
 }

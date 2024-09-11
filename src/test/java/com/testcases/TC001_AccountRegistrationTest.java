@@ -39,7 +39,8 @@ public class TC001_AccountRegistrationTest extends BaseTest {
 
 		logger.info("Validate Password here...");
 		String confmsg = rp.getConfirmationMsg();
-		if(confmsg.equals("Your Account Has Been Created!"))
+//		if(confmsg.equals("Your Account Has Been Created!"))	// appURL1
+		if(confmsg.equals("Account"))						// appURL2
 		{
 			Assert.assertTrue(true);
 		}

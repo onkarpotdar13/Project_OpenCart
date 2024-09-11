@@ -38,13 +38,13 @@ public class TC004_SearchProductTest extends BaseTest{
 			boolean chk_Heading = myaccPage.chk_Heading();
 			Assert.assertTrue(chk_Heading);
 			
-			myaccPage.search_Item(properties.getProperty("searchItems"));
+			myaccPage.search_Product(properties.getProperty("searchItem"));
 			myaccPage.search_Button();
 			
 			logger.info(" <-- Check Search Item --> ");
 			// step 4 : verify search item
-			SearchProductPage searchitem = new SearchProductPage(driver);
-			boolean check_product = searchitem.search_Product();
+			SearchProductPage searchItem = new SearchProductPage(driver);
+			boolean check_product = searchItem.search_Product();
 			
 			Thread.sleep(5000);
 			Assert.assertEquals(check_product, true);

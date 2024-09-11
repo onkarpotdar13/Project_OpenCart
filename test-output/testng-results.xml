@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-04T15:17:20 IST" name="Master_Suite" finished-at="2024-09-04T15:17:37 IST" duration-ms="16979">
+  <suite started-at="2024-09-11T19:41:41 IST" name="Master_Suite" finished-at="2024-09-11T19:42:38 IST" duration-ms="56904">
     <groups>
-      <group name="sanity">
-        <method signature="TC005_DropDownProductTest.dropdown_Items()[pri:0, instance:com.testcases.TC005_DropDownProductTest@17a87e37]" name="dropdown_Items" class="com.testcases.TC005_DropDownProductTest"/>
-      </group> <!-- sanity -->
       <group name="master">
-        <method signature="TC005_DropDownProductTest.dropdown_Items()[pri:0, instance:com.testcases.TC005_DropDownProductTest@17a87e37]" name="dropdown_Items" class="com.testcases.TC005_DropDownProductTest"/>
+        <method signature="TC007_EndToEndTest.end_to_end_Test()[pri:0, instance:com.testcases.TC007_EndToEndTest@20a14b55]" name="end_to_end_Test" class="com.testcases.TC007_EndToEndTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2024-09-04T15:17:20 IST" name="Test" finished-at="2024-09-04T15:17:37 IST" duration-ms="16979">
-      <class name="com.testcases.TC005_DropDownProductTest">
-        <test-method is-config="true" signature="startUp(java.lang.String,java.lang.String)[pri:0, instance:com.testcases.TC005_DropDownProductTest@17a87e37]" started-at="2024-09-04T15:17:20 IST" name="startUp" finished-at="2024-09-04T15:17:28 IST" duration-ms="7473" status="PASS">
+    <test started-at="2024-09-11T19:41:41 IST" name="Test" finished-at="2024-09-11T19:42:38 IST" duration-ms="56904">
+      <class name="com.testcases.TC007_EndToEndTest">
+        <test-method is-config="true" signature="startUp(java.lang.String,java.lang.String)[pri:0, instance:com.testcases.TC007_EndToEndTest@20a14b55]" started-at="2024-09-11T19:41:41 IST" name="startUp" finished-at="2024-09-11T19:41:50 IST" duration-ms="8970" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,15 +26,85 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="dropdown_Items()[pri:0, instance:com.testcases.TC005_DropDownProductTest@17a87e37]" started-at="2024-09-04T15:17:28 IST" name="dropdown_Items" finished-at="2024-09-04T15:17:36 IST" duration-ms="8621" status="PASS">
+        <test-method signature="end_to_end_Test()[pri:0, instance:com.testcases.TC007_EndToEndTest@20a14b55]" started-at="2024-09-11T19:41:50 IST" name="end_to_end_Test" finished-at="2024-09-11T19:42:37 IST" duration-ms="46498" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='button-shipping-method']"}
+  (Session info: chrome=128.0.6613.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a97fd41b6c027f2c01cb18a8fef91f2d, findElement {using=xpath, value=//input[@id='button-shipping-method']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\Win-10\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50214}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50214/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a97fd41b6c027f2c01cb18a8fef91f2d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='button-shipping-method']"}
+  (Session info: chrome=128.0.6613.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a97fd41b6c027f2c01cb18a8fef91f2d, findElement {using=xpath, value=//input[@id='button-shipping-method']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\Win-10\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50214}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50214/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a97fd41b6c027f2c01cb18a8fef91f2d
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+at com.pom.CheckoutPage.click_continueShippMethod(CheckoutPage.java:126)
+at com.testcases.TC007_EndToEndTest.end_to_end_Test(TC007_EndToEndTest.java:131)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dropdown_Items -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.TC005_DropDownProductTest@17a87e37]" started-at="2024-09-04T15:17:36 IST" name="tearDown" finished-at="2024-09-04T15:17:37 IST" duration-ms="446" status="PASS">
+        </test-method> <!-- end_to_end_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.TC007_EndToEndTest@20a14b55]" started-at="2024-09-11T19:42:37 IST" name="tearDown" finished-at="2024-09-11T19:42:38 IST" duration-ms="786" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.testcases.TC005_DropDownProductTest -->
+      </class> <!-- com.testcases.TC007_EndToEndTest -->
     </test> <!-- Test -->
   </suite> <!-- Master_Suite -->
 </testng-results>

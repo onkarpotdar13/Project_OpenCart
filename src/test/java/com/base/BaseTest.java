@@ -58,7 +58,7 @@ public class BaseTest {
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
-		driver.get(properties.getProperty("appURL1"));	// register.properties file config data use here...
+		driver.get(properties.getProperty("appURL2"));	// register.properties file config data use here...
 		driver.manage().window().maximize();
 	}
 

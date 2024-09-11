@@ -38,8 +38,12 @@ public class RegisterPage extends BasePage {
 	@FindBy(xpath = "//input[@value='Continue']")
 	WebElement btn_Continue;
 
-	@FindBy(xpath = "//h1[normalize-space()='Your Account Has Been Created!']")
+//	@FindBy(xpath = "//h1[normalize-space()='Your Account Has Been Created!']")	// appURL1
+	@FindBy(xpath = "//h1[normalize-space()='Account']") //// appURL2
 	WebElement msg_Confirmation;
+
+	@FindBy(xpath = "//a[normalize-space()='Continue']")
+	WebElement btn_accountCountinue;
 
 	// action method
 
@@ -87,6 +91,13 @@ public class RegisterPage extends BasePage {
 		} catch (Exception e) {
 			return (e.getMessage());
 		}
+	}
+
+	// end to end test
+	public void click_accContinue() {
+		// sol1
+		btn_accountCountinue.click();
+
 	}
 
 }
