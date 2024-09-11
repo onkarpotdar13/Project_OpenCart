@@ -121,8 +121,8 @@ You can execute your test cases directly from the **Eclipse IDE** using the **Ru
           1.Navigate to the src/test/resources directory.
           2.Locate the TestNG XML file you want to run:
           For cross-browser tests, use cross_browsing_testing.xml.
-              ── For grouped tests, use grouping.xml.
-              ── Right-click on the desired XML file.
+             - For grouped tests, use grouping.xml.
+             - Right-click on the desired XML file.
           3.Select Run As -> TestNG Suite.
           
           This will execute the test suite, and the results will be displayed in the **TestNG Results** window in Eclipse.
@@ -172,20 +172,6 @@ This file manages the logging configuration, including log levels, file appender
 
 ---
 
-## Contributing
-
-Contributions are welcome! If you want to contribute to the project, follow these steps:
-
-1. Fork the repository.
-2. Create a new feature branch (`git checkout -b feature-branch`).
-3. Make your changes and commit them (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Create a Pull Request.
-
-### Guidelines:
-- Ensure the code passes all tests before submitting.
-- Follow the existing coding standards.
-- Add appropriate documentation for your changes.
 
 ---
 
