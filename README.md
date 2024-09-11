@@ -19,18 +19,18 @@ The framework is designed to support data-driven, cross-browser, and parallel ex
 ---
 
 ## Table of Contents
-1. [Project Structure]
-2. [Prerequisites]
-3. [Installation]
+
+1. [Project Structure](#project-structure)
+2. [Prerequisites](#prerequisites)
+3. [Installation](#installation)
 4. [Usage](#usage)
-5. [Running Tests]
-6. [Test Reporting]
-7. [Logging]
-8. [Screenshots]
-9. [Configuration Files]
-10. [Contributing]
-11. [License]
-12. [References]
+5. [Running Tests](#running-tests)
+6. [Test Reporting](#test-reporting)
+7. [Logging](#logging)
+8. [Screenshots](#screenshots)
+9. [Configuration Files](#configuration-files)
+10. [Contributing](#contributing)
+11. [References](#references)
 
 ---
 
