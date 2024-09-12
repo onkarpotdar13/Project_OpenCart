@@ -26,7 +26,7 @@ By testing on this platform, we can ensure that our **automation framework** is 
 
 ---
 
-### Key Features of the Hybrid Automation Framework:
+## Key Features of the Hybrid Automation Framework:
 
 1. **Page Object Model (POM)**: For enhanced code reusability and maintainability, all page-related actions are separated into different classes, improving readability and efficiency.
 2. **Data-Driven Testing** using TestNG's DataProvider.
@@ -38,8 +38,6 @@ By testing on this platform, we can ensure that our **automation framework** is 
 8. **Detailed Reporting**: Provides in-depth reports using TestNG, with potential support for advanced reporting tools like ExtentReports.
 9. **Parallel Testing**: Executes multiple test cases simultaneously, reducing overall execution time.
 10. - Screenshot capture on failed tests.
-
----
 
 ---
 
