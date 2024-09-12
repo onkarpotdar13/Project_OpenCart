@@ -1,5 +1,40 @@
 # Project Framework --> HYBRID AUTOMATION FRAMEWORK
 
+---
+
+## Overview
+
+This project is a **Hybrid Automation Testing Framework** built using **Java**, **Selenium WebDriver**, **TestNG**, **Maven**, and the **Page Object Model** (POM) design pattern. The framework is designed to be highly scalable, modular, and adaptable, allowing testers to run automated tests efficiently.
+
+### What is OpenCart?
+
+**OpenCart** is a popular open-source e-commerce platform that provides a robust solution for online merchants to create and manage their stores. With its user-friendly interface, flexibility, and rich feature set, OpenCart is widely used for online stores of all sizes.
+
+For this project, we are utilizing an existing deployed instance of OpenCart for our automation testing:  
+**URL:** [https://opencart.abstracta.us](https://opencart.abstracta.us)
+
+### Why OpenCart?
+
+OpenCart offers a comprehensive platform for testing multiple e-commerce functionalities, including:
+- User account registration and login.
+- Product search and filtering.
+- Product selection and checkout process.
+- Adding/removing items from the shopping cart.
+- User profile management (My Account page).
+
+By testing on this platform, we can ensure that our **automation framework** is able to validate various real-world e-commerce scenarios in a robust and scalable way.
+
+### Key Features of the Hybrid Automation Framework:
+
+1. **Page Object Model (POM)**: For enhanced code reusability and maintainability, all page-related actions are separated into different classes, improving readability and efficiency.
+2. **TestNG Integration**: Enables easy test configuration, parallel execution, and reporting.
+3. **Cross-Browser Testing**: Supports testing on different browsers such as Chrome, Firefox, and others.
+4. **Configurable Test Environment**: Test configurations (like browser type, URLs, etc.) are managed via a `config.properties` file.
+5. **Detailed Reporting**: Provides in-depth reports using TestNG, with potential support for advanced reporting tools like ExtentReports.
+6. **Parallel Testing**: Executes multiple test cases simultaneously, reducing overall execution time.
+
+---
+
 ## Use Tools & Technologies
 - **Java**
 - **Selenium**
