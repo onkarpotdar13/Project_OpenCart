@@ -11,6 +11,7 @@ import com.pom.LoginPage;
 import com.pom.MyAccountPage;
 import com.pom.RegisterPage;
 import com.pom.SearchProductPage;
+import com.pom.ShoppingCart;
 
 public class TC007_EndToEndTest extends BaseTest{
 	
@@ -99,7 +100,14 @@ public class TC007_EndToEndTest extends BaseTest{
 		
 		myassert.assertEquals(addPage.alertSuccessAdd(), true);
 		
-		addPage.click_Checkout();
+		addPage.click_Shoppingcart(); 
+		
+		// navigate shopping cart -> verify total price
+		ShoppingCart sc = new ShoppingCart(driver);
+		Thread.sleep(1000);
+		sc.getCartTotalPrice();
+		Thread.sleep(1000);
+		sc.click_Checkout();
 		
 		// navigate checkout -> verify page
 		CheckoutPage cp = new CheckoutPage(driver);
@@ -130,17 +138,24 @@ public class TC007_EndToEndTest extends BaseTest{
 		Thread.sleep(1000);
 		cp.click_continueShippAddress();
 		Thread.sleep(1000);
+		cp.setCommentOrder("THANKS FOR CONFIRM MY ORDER...!");
+		Thread.sleep(1000);
 		cp.click_continueShippMethod();
 //		cp.click_continueCOD();			// not useful
 		Thread.sleep(1000);
 		cp.click_continueAgree();
 		Thread.sleep(1000);
 		cp.click_continuePayMehtod();
+		
+		Thread.sleep(1000);
+		cp.getCheckoutTotalPrice();
+		
 		Thread.sleep(1000);
 		cp.click_confirmOrder();
 		
 		Thread.sleep(2000);
 		boolean orderedSuccess = cp.orderSuccessHeading();
+		Thread.sleep(1000);
 		myassert.assertEquals(orderedSuccess, true);
 	}
 	

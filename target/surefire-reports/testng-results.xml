@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-12T14:01:47 IST" name="Master_Suite" finished-at="2024-09-12T14:02:39 IST" duration-ms="52322">
+  <suite started-at="2024-09-13T14:37:55 IST" name="Master_Suite" finished-at="2024-09-13T14:38:54 IST" duration-ms="59523">
     <groups>
       <group name="master">
         <method signature="TC007_EndToEndTest.end_to_end_Test()[pri:0, instance:com.testcases.TC007_EndToEndTest@5c08c46a]" name="end_to_end_Test" class="com.testcases.TC007_EndToEndTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2024-09-12T14:01:47 IST" name="Test" finished-at="2024-09-12T14:02:39 IST" duration-ms="52322">
+    <test started-at="2024-09-13T14:37:55 IST" name="Test" finished-at="2024-09-13T14:38:54 IST" duration-ms="59523">
       <class name="com.testcases.TC007_EndToEndTest">
-        <test-method is-config="true" signature="startUp(java.lang.String,java.lang.String)[pri:0, instance:com.testcases.TC007_EndToEndTest@5c08c46a]" started-at="2024-09-12T14:01:47 IST" name="startUp" finished-at="2024-09-12T14:01:58 IST" duration-ms="11396" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String,java.lang.String)[pri:0, instance:com.testcases.TC007_EndToEndTest@5c08c46a]" started-at="2024-09-13T14:37:55 IST" name="startUp" finished-at="2024-09-13T14:38:03 IST" duration-ms="7795" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="end_to_end_Test()[pri:0, instance:com.testcases.TC007_EndToEndTest@5c08c46a]" started-at="2024-09-12T14:01:58 IST" name="end_to_end_Test" finished-at="2024-09-12T14:02:38 IST" duration-ms="40112" status="PASS">
+        <test-method signature="end_to_end_Test()[pri:0, instance:com.testcases.TC007_EndToEndTest@5c08c46a]" started-at="2024-09-13T14:38:03 IST" name="end_to_end_Test" finished-at="2024-09-13T14:38:54 IST" duration-ms="50856" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end_to_end_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.TC007_EndToEndTest@5c08c46a]" started-at="2024-09-12T14:02:38 IST" name="tearDown" finished-at="2024-09-12T14:02:39 IST" duration-ms="511" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.TC007_EndToEndTest@5c08c46a]" started-at="2024-09-13T14:38:54 IST" name="tearDown" finished-at="2024-09-13T14:38:54 IST" duration-ms="499" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

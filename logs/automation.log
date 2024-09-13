@@ -63,3 +63,8 @@
 11:09:32.302 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
 12:53:22.591 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
 14:01:46.714 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
+14:05:32.862 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
+14:09:17.969 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
+14:29:24.949 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
+14:33:44.883 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
+14:37:54.630 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"

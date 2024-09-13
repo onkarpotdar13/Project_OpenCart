@@ -48,6 +48,9 @@ public class CheckoutPage extends BasePage {
 
 	@FindBy(xpath = "//input[@id='button-shipping-address']")
 	WebElement btn_shippAddress;
+	
+	@FindBy(xpath = "//textarea[@name='comment']") // NEW
+	WebElement txt_CommentOrder;
 
 	@FindBy(xpath = "//input[@id='button-shipping-method']")
 	WebElement btn_shippMethod;
@@ -60,6 +63,10 @@ public class CheckoutPage extends BasePage {
 
 	@FindBy(xpath = "//input[@id='button-payment-method']")
 	WebElement btn_payMethod;
+	
+	// for total price element in the checkout summary
+    @FindBy(xpath = "//td[@class='text-right'][last()]")
+    WebElement checkoutTotalPrice;
 
 	@FindBy(xpath = "//input[@id='button-confirm']")
 	WebElement btn_confirmOrder;
@@ -121,6 +128,10 @@ public class CheckoutPage extends BasePage {
 	public void click_continueShippAddress() {
 		btn_shippAddress.click();
 	}
+	
+	public void setCommentOrder(String comment) {
+		txt_CommentOrder.sendKeys(comment);
+	}
 
 	public void click_continueShippMethod() {
 		btn_shippMethod.click();
@@ -137,6 +148,11 @@ public class CheckoutPage extends BasePage {
 	public void click_continuePayMehtod() {
 		btn_payMethod.click();
 	}
+	
+	// to retrieve the total price from the checkout summary
+    public String getCheckoutTotalPrice() {
+        return checkoutTotalPrice.getText().replace("$", "").trim();
+    }
 
 	public void click_confirmOrder() {
 		btn_confirmOrder.click();

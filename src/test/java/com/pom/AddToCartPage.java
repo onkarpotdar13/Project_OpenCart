@@ -29,8 +29,8 @@ public class AddToCartPage extends BasePage{
 	@FindBy(xpath = "//div[@class='alert alert-success alert-dismissible']")
 	WebElement alt_SuccessAdd;
 	
-	@FindBy(xpath = "//span[normalize-space()='Checkout']")
-	WebElement lnk_Checkout;
+	@FindBy(xpath = "//span[normalize-space()='Shopping Cart']")
+	WebElement lnk_Shoppingcart;
 	
 	// action methods
 
@@ -63,9 +63,9 @@ public class AddToCartPage extends BasePage{
 		}
 	}
 	
-	public void click_Checkout() {
-		lnk_Checkout.click();
-	}
 	
+	public void click_Shoppingcart() {
+		lnk_Shoppingcart.click();
+	}
 	
 }
