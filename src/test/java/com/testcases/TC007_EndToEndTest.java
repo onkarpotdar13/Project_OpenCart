@@ -13,20 +13,25 @@ import com.pom.RegisterPage;
 import com.pom.SearchProductPage;
 import com.pom.ShoppingCart;
 
+import jdk.internal.org.jline.utils.Log;
+
 public class TC007_EndToEndTest extends BaseTest{
 	
 	@Test(groups = {"master"})
 	public void end_to_end_Test() throws InterruptedException
 	{
+		logger.info("@---***** TEST START BEGIN *****---@");
 		
 		// soft assertion
 		SoftAssert myassert = new SoftAssert();
 		
 		// Home Page Registration
+		logger.info("@---<< OPEN THE PAGE >>---@");
 		HomePage hp = new HomePage(driver);
 		hp.clik_MyAccount();
 		hp.clik_Register();
 		
+		logger.info("@---<< REGISTRATION USER >>---@");
 		RegisterPage rp = new RegisterPage(driver);
 		rp.setFirstName(randomString().toUpperCase());
 		rp.setLastName(randomString().toUpperCase());
@@ -34,12 +39,15 @@ public class TC007_EndToEndTest extends BaseTest{
 		String email = randomString() + "@gamil.com";
 		
 		rp.setEmail(email);
+		System.out.println("EMAIL : " + email);
+		
 		rp.setTelephone(randomNumeric());
 
 		String password = randomAlphaNumeric();
 		
 		rp.setPassword(password);
 		rp.setConfirmPassword(password);
+		System.out.println("PASSWORD : " + password);
 		
 		rp.checkPrivacyPolicy();
 		rp.clickContinue();
@@ -47,6 +55,7 @@ public class TC007_EndToEndTest extends BaseTest{
 		Thread.sleep(2000);
 		
 		String isDiplayedMsg = rp.getConfirmationMsg();
+		System.out.println("MY-ACCOUNT-TITLE : " + isDiplayedMsg);
 		
 //		if(isDiplayedMsg.equals("Your Account Has Been Created!"))
 		if(isDiplayedMsg.equals("Account"))
@@ -63,8 +72,10 @@ public class TC007_EndToEndTest extends BaseTest{
 		
 		// back to home page and login
 		hp.clik_MyAccount();
+		logger.info("@---<< LOGOUT THE PAGE >>---@");
 		hp.click_Login();
 		
+		logger.info("@---<< LOGIN THE PAGE >>---@");
 		LoginPage lp = new LoginPage(driver);
 		lp.setEmail(email);
 		Thread.sleep(1000);
@@ -76,23 +87,32 @@ public class TC007_EndToEndTest extends BaseTest{
 		boolean existsAccount = myacc.chk_Heading();
 		myassert.assertEquals(existsAccount, true);
 		
+		System.out.println("CHECKOUT TITLE : " + existsAccount);
+		
 		// search product
+		logger.info("@---<< SEARCH PRODUCT >>---@");
 		myacc.search_Product(properties.getProperty("searchItem"));
 		myacc.search_Button();
 		
-		// verify & click product and add to cart product
+		// verify & click product 
+		logger.info("@---<< VERIFY PRODUCT >>---@");
 		SearchProductPage searchItem = new SearchProductPage(driver);
 		boolean existsProduct = searchItem.search_Product();
 		
 		myassert.assertEquals(existsProduct, true);
 		
+		System.out.println("PRODUCT : " + existsProduct);
+		
 		// click on product name 
 		searchItem.click_Product();
 		// navigate add to cart -> verify product page -> clear quantity -> enter quantity -> click Add to Cart button -> verify success alert message
+		logger.info("@---<< NAVIGATE ADD TO CART & ADD PRODUCTS >>---@");
 		AddToCartPage addPage = new AddToCartPage(driver);
 		boolean productHeading = addPage.productHeading();
 		
 		myassert.assertEquals(productHeading, true);
+		
+		System.out.println("PRODUCT TITLE : " + productHeading);
 		
 		addPage.clear_Quantity();
 		addPage.enterQuantity(properties.getProperty("enterQuantity"));
@@ -103,18 +123,25 @@ public class TC007_EndToEndTest extends BaseTest{
 		addPage.click_Shoppingcart(); 
 		
 		// navigate shopping cart -> verify total price
+		logger.info("@---<< NAVIGATE TO SHOPPING CART PAGE VERIFY TOTAL CART PRICE >>---@");
 		ShoppingCart sc = new ShoppingCart(driver);
 		Thread.sleep(1000);
-		sc.getCartTotalPrice();
+		String cartTotalPrice = sc.getCartTotalPrice();
+		System.out.println("SHOPPING-CART-TOTAL-PRICE : $" + cartTotalPrice);
+		myassert.assertEquals(cartTotalPrice, "$404.00");
+		
 		Thread.sleep(1000);
 		sc.click_Checkout();
 		
 		// navigate checkout -> verify page
+		logger.info("@---<< NAVIGATE TO CHECKOUT PAGE FILL ALL INFORNATION >>---@");
 		CheckoutPage cp = new CheckoutPage(driver);
 		
 		Thread.sleep(2000);
 		boolean checkoutHeading = cp.checkoutHeading();
 		myassert.assertEquals(checkoutHeading, true);
+		
+		System.out.println("CHECKOUT TITLE : " + checkoutHeading);
 		
 		cp.setFirstname(randomString().toUpperCase());
 		Thread.sleep(1000);
@@ -147,8 +174,11 @@ public class TC007_EndToEndTest extends BaseTest{
 		Thread.sleep(1000);
 		cp.click_continuePayMehtod();
 		
+		logger.info("@---<< SHOPPING CART VERIFY TOTAL CART PRICE >>---@");
 		Thread.sleep(1000);
-		cp.getCheckoutTotalPrice();
+		String checkoutTotalPrice = cp.getCheckoutTotalPrice();
+		System.out.println("CHECKOUT-TOTAL-PRICE : $" + checkoutTotalPrice);
+		myassert.assertEquals(cartTotalPrice, "$409.00");
 		
 		Thread.sleep(1000);
 		cp.click_confirmOrder();
@@ -157,6 +187,10 @@ public class TC007_EndToEndTest extends BaseTest{
 		boolean orderedSuccess = cp.orderSuccessHeading();
 		Thread.sleep(1000);
 		myassert.assertEquals(orderedSuccess, true);
+		
+		System.out.println("ORDER SUCCESS : " + orderedSuccess);
+		
+		logger.info("@---***** TEST PASS SUCCESSFULLY *****---@");
 	}
 	
 	

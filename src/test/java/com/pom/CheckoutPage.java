@@ -65,7 +65,8 @@ public class CheckoutPage extends BasePage {
 	WebElement btn_payMethod;
 	
 	// for total price element in the checkout summary
-    @FindBy(xpath = "//td[@class='text-right'][last()]")
+//    @FindBy(xpath = "//td[contains(@class, 'text-right')][last()]")
+	@FindBy(xpath = "//td[normalize-space()='$409.00']")
     WebElement checkoutTotalPrice;
 
 	@FindBy(xpath = "//input[@id='button-confirm']")

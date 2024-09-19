@@ -16,7 +16,8 @@ public class ShoppingCart extends BasePage{
 	// locators
 	
 	// for total price element in the cart
-    @FindBy(xpath = "//td[@class='text-right'][last()]") 
+//    @FindBy(xpath = "//td[contains(@class, 'text-right')][last()]") 
+	@FindBy(xpath = "//tbody//tr//td[6]")
     WebElement totalPrice;
 	
 	@FindBy(xpath = "//span[normalize-space()='Checkout']")

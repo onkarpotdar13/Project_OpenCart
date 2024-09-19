@@ -1,70 +1,13 @@
-12:32:13.282 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
-12:32:13.669 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  D:\Teasting_Network\Project_OpenCart\master.xml
-
-12:36:21.860 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
-12:36:22.242 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  D:\Teasting_Network\Project_OpenCart\master.xml
-
-12:39:01.366 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
-12:39:01.959 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  D:\Teasting_Network\Project_OpenCart\master.xml
-
-12:47:12.635 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
-12:47:13.027 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  D:\Teasting_Network\Project_OpenCart\master.xml
-
-12:50:41.854 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
-12:50:42.230 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  D:\Teasting_Network\Project_OpenCart\master.xml
-
-12:52:50.549 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
-12:52:50.980 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  D:\Teasting_Network\Project_OpenCart\master.xml
-
-13:11:16.119 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
-13:11:16.548 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  D:\Teasting_Network\Project_OpenCart\master.xml
-
-13:13:26.393 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
-13:13:26.830 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  D:\Teasting_Network\Project_OpenCart\master.xml
-
-13:22:53.078 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
-13:22:53.441 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  D:\Teasting_Network\Project_OpenCart\master.xml
-
-13:34:54.880 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
-13:34:55.245 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  D:\Teasting_Network\Project_OpenCart\master.xml
-
-13:36:08.208 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
-13:36:08.586 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  D:\Teasting_Network\Project_OpenCart\master.xml
-
-19:37:58.248 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
-19:37:58.847 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  D:\Teasting_Network\Project_OpenCart\master.xml
-
-19:41:41.144 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
-19:41:41.521 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  D:\Teasting_Network\Project_OpenCart\master.xml
-
-19:43:56.390 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
-19:43:56.773 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  D:\Teasting_Network\Project_OpenCart\master.xml
-
-19:44:18.344 [main] ERROR com.testcases.TC007_EndToEndTest - Error logs...
-19:44:18.344 [main] DEBUG com.testcases.TC007_EndToEndTest - Debugs logs...
-19:48:40.015 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
-19:49:02.212 [main] ERROR com.testcases.TC007_EndToEndTest - Error logs...
-19:49:02.213 [main] DEBUG com.testcases.TC007_EndToEndTest - Debugs logs...
-19:51:10.768 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
-11:09:32.302 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
-12:53:22.591 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
-14:01:46.714 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
-14:05:32.862 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
-14:09:17.969 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
-14:29:24.949 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
-14:33:44.883 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
-14:37:54.630 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
+12:41:26.115 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
+12:41:36.553 [main] INFO  com.testcases.TC007_EndToEndTest - @---***** TEST START BEGIN *****---@
+12:41:36.556 [main] INFO  com.testcases.TC007_EndToEndTest - @---<< OPEN THE PAGE >>---@
+12:41:38.901 [main] INFO  com.testcases.TC007_EndToEndTest - @---<< REGISTRATION USER >>---@
+12:41:44.105 [main] INFO  com.testcases.TC007_EndToEndTest - @---<< LOGOUT THE PAGE >>---@
+12:41:45.080 [main] INFO  com.testcases.TC007_EndToEndTest - @---<< LOGIN THE PAGE >>---@
+12:41:51.540 [main] INFO  com.testcases.TC007_EndToEndTest - @---<< SEARCH PRODUCT >>---@
+12:41:53.095 [main] INFO  com.testcases.TC007_EndToEndTest - @---<< VERIFY PRODUCT >>---@
+12:41:56.558 [main] INFO  com.testcases.TC007_EndToEndTest - @---<< NAVIGATE ADD TO CART & ADD PRODUCTS >>---@
+12:41:58.121 [main] INFO  com.testcases.TC007_EndToEndTest - @---<< NAVIGATE TO SHOPPING CART PAGE VERIFY TOTAL CART PRICE >>---@
+12:42:00.858 [main] INFO  com.testcases.TC007_EndToEndTest - @---<< NAVIGATE TO CHECKOUT PAGE FILL ALL INFORNATION >>---@
+12:42:21.000 [main] INFO  com.testcases.TC007_EndToEndTest - @---<< SHOPPING CART VERIFY TOTAL CART PRICE >>---@
+12:42:26.289 [main] INFO  com.testcases.TC007_EndToEndTest - @---***** TEST PASS SUCCESSFULLY *****---@
