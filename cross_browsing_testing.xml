@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="5" name="Suite" parallel="tests">
+<suite thread-count="5" name="Suite" parallel="tests">  
+
+<!-- 1.NOTE : parallel or cross browsing testing in suite tag wite like -> parallel="tests" 
+	 2.NOTE : serise execution no need to write anything. 
+-->
 
 	<listeners>
 	
@@ -15,9 +19,10 @@
 
 		<classes>
 			<class name="com.testcases.TC001_AccountRegistrationTest" />
+			<!--<class name="com.testcases.TC003_SelectProductTest"/>-->
 		</classes>
-	</test> <!--
-	Test Chrome Browser-->
+	</test> 
+	<!-- Test Chrome Browser-->
 
 	<test name="edge_test">
 
@@ -26,9 +31,10 @@
 
 		<classes>
 			<class name="com.testcases.TC001_AccountRegistrationTest" />
+			<!--<class name="com.testcases.TC003_SelectProductTest"/>-->
 		</classes>
-	</test> <!--
-	Test Edge Browser -->
+	</test> 
+	<!--Test Edge Browser--> 
 
 	<test name="firefox_test">
 
@@ -37,8 +43,9 @@
 
 		<classes>
 			<class name="com.testcases.TC001_AccountRegistrationTest" />
+			<!--<class name="com.testcases.TC003_SelectProductTest"/>-->
 		</classes>
-	</test> <!--
-	Test FrireFox Browser -->
+	</test> 
+	<!-- Test FrireFox Browser -->
 
 </suite> <!-- Suite -->

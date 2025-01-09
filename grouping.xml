@@ -28,9 +28,9 @@
 		<classes>
 			<class name="com.testcases.TC001_AccountRegistrationTest" />
 			<class name="com.testcases.TC002_AccountLoginTest" />
-			<class name="com.testcases.TC003_CheckTabletItemsTest" />
+			<class name="com.testcases.TC003_SelectProductTest" />
 			
-			<class name="com.ddtestcase.TC001_LoginDDTest" />
+			<!--<class name="com.ddtestcase.TC001_LoginDDTest" />-->
 		</classes>
 	</test> <!--
 	Test -->

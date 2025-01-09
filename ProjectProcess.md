@@ -157,7 +157,7 @@ Add all required dependencies in `pom.xml`:
 
 ### Step 1: Create Test Case - User Account Registration
 
-- 1.1 Create `BasePage` class under the `com.base` package which includes only the constructor. This will be invoked by every Page Object Class constructor for reusability.
+- 1.1 Create `BasePage` class under the `com.base` package which includes only the constructor. This will be invoked by every Page Object 	  	  Class constructor for re-usability.
 - 1.2 Create page object classes for `HomePage` and `RegisterPage` under the `com.pom` package (these classes extend `BasePage`).
 - 1.3 Create a class `TC001_AccountRegistrationTest` under the `com.testcases` package.
 - 1.4 Create a class `BaseTest` under the `com.base` package and copy reusable methods.
@@ -250,9 +250,7 @@ Example:
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-               
-
- <version>3.13.0</version>  <!-- Compiles the project -->
+               <version>3.13.0</version>  <!-- Compiles the project -->
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -271,6 +269,9 @@ Example:
 
 ---
 
+### SeleniumGrid
+
+** Selenium grid is a smart proxy server that makes it easy to run tests in parallel on multiple machines. **
 
 ## Conclusion
 

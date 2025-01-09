@@ -1,13 +1,15 @@
-12:41:26.115 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
-12:41:36.553 [main] INFO  com.testcases.TC007_EndToEndTest - @---***** TEST START BEGIN *****---@
-12:41:36.556 [main] INFO  com.testcases.TC007_EndToEndTest - @---<< OPEN THE PAGE >>---@
-12:41:38.901 [main] INFO  com.testcases.TC007_EndToEndTest - @---<< REGISTRATION USER >>---@
-12:41:44.105 [main] INFO  com.testcases.TC007_EndToEndTest - @---<< LOGOUT THE PAGE >>---@
-12:41:45.080 [main] INFO  com.testcases.TC007_EndToEndTest - @---<< LOGIN THE PAGE >>---@
-12:41:51.540 [main] INFO  com.testcases.TC007_EndToEndTest - @---<< SEARCH PRODUCT >>---@
-12:41:53.095 [main] INFO  com.testcases.TC007_EndToEndTest - @---<< VERIFY PRODUCT >>---@
-12:41:56.558 [main] INFO  com.testcases.TC007_EndToEndTest - @---<< NAVIGATE ADD TO CART & ADD PRODUCTS >>---@
-12:41:58.121 [main] INFO  com.testcases.TC007_EndToEndTest - @---<< NAVIGATE TO SHOPPING CART PAGE VERIFY TOTAL CART PRICE >>---@
-12:42:00.858 [main] INFO  com.testcases.TC007_EndToEndTest - @---<< NAVIGATE TO CHECKOUT PAGE FILL ALL INFORNATION >>---@
-12:42:21.000 [main] INFO  com.testcases.TC007_EndToEndTest - @---<< SHOPPING CART VERIFY TOTAL CART PRICE >>---@
-12:42:26.289 [main] INFO  com.testcases.TC007_EndToEndTest - @---***** TEST PASS SUCCESSFULLY *****---@
+14:08:22.077 [main] INFO  com.testcases.TC001_AccountRegistrationTest - Click on 'Register' link..
+14:08:23.874 [main] INFO  com.testcases.TC001_AccountRegistrationTest - Fill the all user required details here...
+14:08:26.025 [main] INFO  com.testcases.TC001_AccountRegistrationTest - Validate Password here...
+14:08:26.104 [main] INFO  com.testcases.TC001_AccountRegistrationTest - *** FINISH THE <-- TC001_AccountRegistrationTest --> TEST ***
+14:08:33.036 [main] INFO  com.testcases.TC002_AccountLoginTest - *** START THE <-- TC002_AccountLoginTest --> TEST ***
+14:08:33.037 [main] INFO  com.testcases.TC002_AccountLoginTest -  <-- Home Page Action -->
+14:08:33.942 [main] INFO  com.testcases.TC002_AccountLoginTest -  <-- Login Page Action -->
+14:08:35.899 [main] INFO  com.testcases.TC002_AccountLoginTest -  <-- MyAccount Page Action -->
+14:08:35.977 [main] INFO  com.testcases.TC002_AccountLoginTest - *** FINISH THE <-- TC002_AccountLoginTest --> TEST ***
+14:08:43.214 [main] INFO  com.testcases.TC003_SelectProductTest - *** START THE <-- TC003_CheckTabletItemsTest --> TEST ***
+14:08:43.214 [main] INFO  com.testcases.TC003_SelectProductTest -  <-- Home Page --> 
+14:08:44.081 [main] INFO  com.testcases.TC003_SelectProductTest -  <-- Login Page --> 
+14:08:45.822 [main] INFO  com.testcases.TC003_SelectProductTest -  <-- Click Tablet Option --> 
+14:08:46.898 [main] INFO  com.testcases.TC003_SelectProductTest -  <-- Check Tablet Items --> 
+14:08:47.057 [main] INFO  com.testcases.TC003_SelectProductTest - *** FINICH THE <-- TC003_CheckTabletItemsTest --> TEST ***

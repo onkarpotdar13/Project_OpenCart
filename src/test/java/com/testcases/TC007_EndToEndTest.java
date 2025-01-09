@@ -1,6 +1,6 @@
 package com.testcases;
 
-import org.testng.annotations.Test;
+import org.testng.annotations.Test; 
 import org.testng.asserts.SoftAssert;
 
 import com.base.BaseTest;
@@ -13,7 +13,7 @@ import com.pom.RegisterPage;
 import com.pom.SearchProductPage;
 import com.pom.ShoppingCart;
 
-import jdk.internal.org.jline.utils.Log;
+
 
 public class TC007_EndToEndTest extends BaseTest{
 	
