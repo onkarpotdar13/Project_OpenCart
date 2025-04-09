@@ -26,7 +26,7 @@ By testing on this platform, we can ensure that our **automation framework** is 
 
 ### Key Features of the Hybrid Automation Framework:
 
-1. **Page Object Model (POM)**: For enhanced code reusability and maintainability, all page-related actions are separated into different classes, improving readability and efficiency.
+1. **Page Object Model (POM)**: For enhanced code re-usability and maintainability, all page-related actions are separated into different classes, improving readability and efficiency.
 2. **TestNG Integration**: Enables easy test configuration, parallel execution, and reporting.
 3. **Cross-Browser Testing**: Supports testing on different browsers such as Chrome, Firefox, and others.
 4. **Configurable Test Environment**: Test configurations (like browser type, URLs, etc.) are managed via a `config.properties` file.
@@ -157,7 +157,7 @@ Add all required dependencies in `pom.xml`:
 
 ### Step 1: Create Test Case - User Account Registration
 
-- 1.1 Create `BasePage` class under the `com.base` package which includes only the constructor. This will be invoked by every Page Object 	  	  Class constructor for re-usability.
+- 1.1 Create `BasePage` class under the `com.base` package which includes only the constructor. This will be invoked by every Page Object Class constructor for re-usability.here use page factory.
 - 1.2 Create page object classes for `HomePage` and `RegisterPage` under the `com.pom` package (these classes extend `BasePage`).
 - 1.3 Create a class `TC001_AccountRegistrationTest` under the `com.testcases` package.
 - 1.4 Create a class `BaseTest` under the `com.base` package and copy reusable methods.
@@ -167,13 +167,18 @@ Add all required dependencies in `pom.xml`:
 
 - 2.1 Create `log4j2.xml` file under `src/test/resources` and define properties, appenders, and loggers.
 - 2.2 Update the `BaseTest` class by creating a `Logger` object.
-- 2.3 Add log statements to the `TC001_AccountRegistrationTest` class.
+- 2.3 Add log statements to the `TC001_AccountRegistrationTest` or any class want.
 
 ### Step 3: Run Tests on Parallel/Cross Browser/Desired Browser
 
 - 3.1 Create a `master.xml` file to run test cases and parameterize OS and browser names for the `BaseTest` class `startUp()` method.
 - 3.2 Update the `startUp()` method with the `@Parameters({ "os", "browser" })` annotation and set values according to the XML file to launch the browser.
 - 3.3 Maintain a separate XML file to run tests on multiple browsers in parallel.
+
+### NOTE : os operater use in grid concept and br use in browser concept.
+
+** Steps for crating test.xml file **
+** 1.click on project select -> 2.TestNG sub-point -> 3.Convert to TestNG -> 4.Give test name -> 5.Next -> 	6.Finish **
 
 ### Step 4: Read Common Values from the `config.properties` File
 
@@ -199,11 +204,36 @@ Add all required dependencies in `pom.xml`:
 ### Step 7: Group Testing
 
 - 7.1 Add all test cases into specific groups (sanity, regression, master, etc.).
+
 - 7.2 Specify the group under the test method in the test class.
+
+	public class TC001_LoginTest extends BaseTest
+	{
+		@Test(groups = "regression")			[or use @Test(groups = {"regression","master"}) if multiple ]
+		public void login() {
+			//code	
+		}
+	}
+
 - 7.3 Add the `startUp()` and `tearDown()` methods from the `BaseTest` class to all groups.
+	
+	@BeforeClass(groups = { "sanity", "regression", "functional" })
+	@Parameters({ "os", "browser" })
+	public void startUp(String os, String browser) throws IOException 
+	{
+		// code 
+	}
+	
+	and 
+	
+	@AfterClass(groups = {"sanity", "regression", "functional"})
+	public void tearDown() {
+		// code 
+	}
+	
 - 7.4 Create a separate TestNG XML file (`grouping.xml`) to run tests by group and include the groups you want to execute.
 
-Example:
+Example: that code write in above the test tag
 
 ```xml
 <groups>
@@ -238,7 +268,7 @@ Example:
 - 9.2 Update the XML and rerun the failed tests.
 - 9.3 Failed tests will be automatically removed once they pass.
 
-### Step 10: Run Test Cases Using `pom.xml`, Command Prompt, or `run.bat` File
+### Step 10: Run Test Cases Using `pom.xml`, `Command Prompt`, or `run.bat` File
 
 - 10.1 Go to the `pom.xml` and add the plugins below under the `<build>` tag. Run the tests with Maven.
 

@@ -1,6 +1,6 @@
 package com.base;
 
-import java.io.File;
+import java.io.File;  
 import java.io.FileReader;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -18,6 +18,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
+
 import org.apache.logging.log4j.LogManager; //log4j
 import org.apache.logging.log4j.Logger; //log4j
 
@@ -58,7 +59,7 @@ public class BaseTest {
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
-		driver.get(properties.getProperty("appURL2"));	// register.properties file config data use here...
+		driver.get(properties.getProperty("appURL1"));	// register.properties file config data use here...
 		driver.manage().window().maximize();
 	}
 

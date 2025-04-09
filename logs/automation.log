@@ -13,3 +13,40 @@
 14:08:45.822 [main] INFO  com.testcases.TC003_SelectProductTest -  <-- Click Tablet Option --> 
 14:08:46.898 [main] INFO  com.testcases.TC003_SelectProductTest -  <-- Check Tablet Items --> 
 14:08:47.057 [main] INFO  com.testcases.TC003_SelectProductTest - *** FINICH THE <-- TC003_CheckTabletItemsTest --> TEST ***
+12:13:27.093 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\cross_browsing_testing.xml"
+12:13:27.523 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Teasting_Network\Project_OpenCart\cross_browsing_testing.xml
+
+12:13:39.029 [TestNG-tests-1] INFO  com.testcases.TC001_AccountRegistrationTest - *** START THE <-- TC001_AccountRegistrationTest --> TEST ***
+12:13:39.108 [TestNG-tests-1] INFO  com.testcases.TC001_AccountRegistrationTest - Click on 'MyAccount' link..
+12:13:53.250 [TestNG-tests-3] INFO  com.testcases.TC001_AccountRegistrationTest - *** START THE <-- TC001_AccountRegistrationTest --> TEST ***
+12:13:53.250 [TestNG-tests-3] INFO  com.testcases.TC001_AccountRegistrationTest - Click on 'MyAccount' link..
+12:14:01.318 [TestNG-tests-2] INFO  com.testcases.TC001_AccountRegistrationTest - *** START THE <-- TC001_AccountRegistrationTest --> TEST ***
+12:14:01.322 [TestNG-tests-2] INFO  com.testcases.TC001_AccountRegistrationTest - Click on 'MyAccount' link..
+12:14:48.876 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
+12:14:49.271 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Teasting_Network\Project_OpenCart\master.xml
+
+12:14:54.473 [main] INFO  com.testcases.TC004_SearchProductTest - *** START THE <-- TC004_SearchItemTest --> TEST ***
+12:14:54.474 [main] INFO  com.testcases.TC004_SearchProductTest -  <-- Home Page --> 
+12:16:41.744 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\master.xml"
+12:16:42.134 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Teasting_Network\Project_OpenCart\master.xml
+
+12:16:50.218 [main] INFO  com.testcases.TC004_SearchProductTest - *** START THE <-- TC004_SearchItemTest --> TEST ***
+12:16:50.221 [main] INFO  com.testcases.TC004_SearchProductTest -  <-- Home Page --> 
+12:16:50.901 [main] INFO  com.testcases.TC004_SearchProductTest -  <-- Login Page --> 
+12:16:52.255 [main] INFO  com.testcases.TC004_SearchProductTest -  <-- Search Item Option --> 
+12:16:53.770 [main] INFO  com.testcases.TC004_SearchProductTest -  <-- Check Search Item --> 
+12:16:58.871 [main] INFO  com.testcases.TC004_SearchProductTest - *** FINISH THE <-- TC004_SearchItemTest --> TEST ***
+12:47:47.787 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Teasting_Network\Project_OpenCart\cross_browsing_testing.xml"
+12:47:48.179 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Teasting_Network\Project_OpenCart\cross_browsing_testing.xml
+
+12:48:09.587 [TestNG-tests-1] INFO  com.testcases.TC001_AccountRegistrationTest - *** START THE <-- TC001_AccountRegistrationTest --> TEST ***
+12:48:09.619 [TestNG-tests-1] INFO  com.testcases.TC001_AccountRegistrationTest - Click on 'MyAccount' link..
+12:48:09.940 [TestNG-tests-1] INFO  com.testcases.TC001_AccountRegistrationTest - Click on 'Register' link..
+12:48:11.533 [TestNG-tests-1] INFO  com.testcases.TC001_AccountRegistrationTest - Fill the all user required details here...
+12:48:14.582 [TestNG-tests-1] INFO  com.testcases.TC001_AccountRegistrationTest - Validate Password here...
+12:48:24.639 [TestNG-tests-1] ERROR com.testcases.TC001_AccountRegistrationTest - Error logs...
+12:48:24.640 [TestNG-tests-1] DEBUG com.testcases.TC001_AccountRegistrationTest - Debugs logs...

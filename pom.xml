@@ -14,6 +14,7 @@
 		<!-- To define the plugin version in your parent POM -->
 		<pluginManagement>
 			<plugins>
+				<!-- It use for running xml file -->
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>

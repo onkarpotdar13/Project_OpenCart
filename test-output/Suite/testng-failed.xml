@@ -4,30 +4,17 @@
   <listeners>
     <listener class-name="com.utilities.OC_ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="chrome_test(failed)">
+  <test thread-count="5" parallel="tests" name="firefox_test(failed)">
     <parameter name="os" value="windows"/>
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.testcases.TC003_SelectProductTest">
+      <class name="com.testcases.TC001_AccountRegistrationTest">
         <methods>
           <include name="tearDown"/>
           <include name="startUp"/>
-          <include name="check_Tablet_Items"/>
+          <include name="verify_account_Registration"/>
         </methods>
-      </class> <!-- com.testcases.TC003_SelectProductTest -->
+      </class> <!-- com.testcases.TC001_AccountRegistrationTest -->
     </classes>
-  </test> <!-- chrome_test(failed) -->
-  <test thread-count="5" parallel="tests" name="edge_test(failed)">
-    <parameter name="os" value="windows"/>
-    <parameter name="browser" value="edge"/>
-    <classes>
-      <class name="com.testcases.TC003_SelectProductTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="startUp"/>
-          <include name="check_Tablet_Items"/>
-        </methods>
-      </class> <!-- com.testcases.TC003_SelectProductTest -->
-    </classes>
-  </test> <!-- edge_test(failed) -->
+  </test> <!-- firefox_test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
